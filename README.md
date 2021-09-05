@@ -1,4 +1,4 @@
 # fuckoff_kwin
-Fucks off kwin_x11 on shutdown so that it doesn't hang on systemd's process timeout
+simple systemd service that fucks off kwin_x11 on shutdown so that it doesn't hang on the process timeout
 
-just git clone it on /etc/systemd/system and enable the service to use it
+just git clone the contents on /etc/systemd/system and enable the service to use it
