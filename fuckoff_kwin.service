@@ -1,0 +1,10 @@
+[Unit]
+Description=Fucks off kwin_x11 on shutdown so that it doesn't hang on process timeout.
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStop=/etc/systemd/system/fuckoff_kwin/fuckoff_kwin.sh
+
+[Install]
+WantedBy=multi-user.target
